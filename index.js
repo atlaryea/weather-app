@@ -32,8 +32,6 @@ async function checkWeather(city) {
         weatherIcon.src = "images/mist.png";
     }
 
-    console.log(data.weather[0].main)
-
 }
 
 searchBtn.addEventListener("click", ()=>{
